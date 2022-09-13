@@ -19,7 +19,7 @@
     }, 
     "content_scripts": [
         {
-          "matches": ["https://bhannasa.github.io/Save_DSA_Questions_Chrome_Extension/"],
+          "matches": ["https://bhannasa.github.io/Save_DSA_Questions_Chrome_Extension/", "http://127.0.0.1:5500/docs/index.html"],
           "js": ["content-script.js"]
         }
       ],
